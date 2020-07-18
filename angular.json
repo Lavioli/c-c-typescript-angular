@@ -111,10 +111,11 @@
           }
         },
         "e2e": {
-          "builder": "@angular-devkit/build-angular:protractor",
+          "builder": "@nrwl/cypress:cypress",
           "options": {
-            "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "c-c-typescript-angular:serve"
+            "devServerTarget": "c-c-typescript-angular:serve",
+            "cypressConfig": "./cypress.json",
+            "tsConfig": "./tsconfig.json"
           },
           "configurations": {
             "production": {
