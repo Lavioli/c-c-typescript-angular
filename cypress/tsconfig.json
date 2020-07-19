@@ -3,12 +3,8 @@
   "include": ["./**/*.ts"],
   "exclude": [],
   "compilerOptions": {
-      "types": ["cypress", "node"],
-      "lib": ["es2015", "dom"],
-      "esModuleInterop": true,
-      "isolatedModules": false,
-      "allowJs": true,
-      "noEmit": true
+    "types": ["cypress", "node"],
+    "lib": ["es2015", "dom"],
+    "allowJs": true
   }
-
 }

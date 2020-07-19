@@ -1,16 +1,11 @@
 Feature: The Facebook
 
-I want to open a social network page
-  Background:
-    Given counter has been reset
-@dudes
-  Scenario: Opening a social network page
-    Given I open Google page
-    When I open maps page
-    Then I open store page
+  # This is a good place to put before/beforeEach/after/afterEach hooks related to that particular feature.
+  # This is incredibly hard to get right with pure cucumber.
 
-@foo
-  Scenario: Opening a social network page version
-    Given I open Google page
-    When I open maps page
-    Then I open store page
+  # I want to open a social network page
+  # Background:
+  #   Given counter has been reset
+
+# I want to open
+

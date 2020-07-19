@@ -1,5 +1,9 @@
 {
   "baseUrl": "http://localhost:4200/",
   "integrationFolder": "./cypress/integration/",
-  "testFiles": "**/*.feature"
+  "testFiles": "./**/*.{feature,features}",
+  "video": false,
+  "numTestsKeptInMemory": 5,
+  "viewportWidth": 1400,
+  "viewportHeight": 1000
 }

@@ -12,13 +12,19 @@
 // This function is called when a project is opened or re-opened (e.g. due to
 // the project's config changing)
 
-const cucumber = require("cypress-cucumber-preprocessor").default;
+// const cucumber = require("cypress-cucumber-preprocessor").default;
+const webpack = require("@cypress/webpack-preprocessor");
 
 /**
  * @type {Cypress.PluginConfig}
  */
-module.exports = (on, config) => {
+module.exports = (on, _config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
-  on("file:preprocessor", cucumber());
+  // on("file:preprocessor", cucumber());
+
+  const options = {
+    webpackOptions: require("../webpack.config.js")
+  };
+  on("file:preprocessor", webpack(options));
 };

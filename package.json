@@ -5,11 +5,12 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "cypress:open": "npx cypress open",
-    "cypress:run": "npx cypress run"
+    "cypress:run": "npx cypress run",
+    "test": "npx cypress run --spec \"**/*.feature\"",
+    "test:all": "npx cypress run --spec \"**/*.features\""
   },
   "private": true,
   "cypress-cucumber-preprocessor": {
@@ -39,8 +40,8 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
     "codelyzer": "^5.1.2",
-    "cypress": "^4.10.0",
-    "cypress-cucumber-preprocessor": "^2.5.3",
+    "cypress": "4.10.0",
+    "cypress-cucumber-preprocessor": "2.5.3",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~5.0.0",
