@@ -12,6 +12,8 @@
   },
   "private": true,
   "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+  
     "cucumberJson": {
       "generate": true,
       "outputFolder": "cypress/cucumber-json",

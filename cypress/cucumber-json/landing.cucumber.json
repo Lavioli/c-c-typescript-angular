@@ -22,7 +22,18 @@
             "name": "I Open the home page",
             "result": {
               "status": "passed",
-              "duration": 350000000
+              "duration": 638000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I see \"Bishman\" in the title",
+            "result": {
+              "status": "failed",
+              "duration": 4029000000,
+              "error_message": "AssertionError: Timed out retrying: expected 'CCTypescriptAngular' to include 'Bishman'\n    at Context.eval (http://localhost:4200/__cypress/tests?p=cypress/integration/landing.feature:102:16)\n    at Context.resolveAndRunStepDefinition (http://localhost:4200/__cypress/tests?p=cypress/integration/landing.feature:14096:9)\n    at Context.eval (http://localhost:4200/__cypress/tests?p=cypress/integration/landing.feature:13402:35)"
             }
           }
         ]
