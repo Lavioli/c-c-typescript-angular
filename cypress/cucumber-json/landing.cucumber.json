@@ -22,7 +22,7 @@
             "name": "I Open the home page",
             "result": {
               "status": "passed",
-              "duration": 708000000
+              "duration": 350000000
             }
           }
         ]

@@ -45,6 +45,6 @@ testem.log
 .DS_Store
 Thumbs.db
 
-/cypress/videos
-/cypress/cucumber-json
+cypress/videos
+cypress/cucumber-json
 
