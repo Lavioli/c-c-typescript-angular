@@ -16,7 +16,7 @@
     "step_definitions": "cypress/steps_definitions",
     "cucumberJson": {
       "generate": true,
-      "outputFolder": "cypress/cucumber-json",
+      "outputFolder": "sf-ui/cucumber-json",
       "filePrefix": "",
       "fileSuffix": ".cucumber"
     }
